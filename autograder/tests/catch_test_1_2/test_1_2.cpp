@@ -4,6 +4,7 @@
 #include "catch.hpp"
 #include "redirect_io.h"
 #include "polynomial.h"
+#include <iterator>
 using namespace std;
 
 static void test_2() {
