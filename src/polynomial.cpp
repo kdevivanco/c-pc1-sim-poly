@@ -5,7 +5,10 @@
 #include <iostream>
 #include "polynomial.h"
 int main(){
-    cout << generate_polynomial<10,0,7,2,0,0,11>(5) << endl;
+    cout << generate_polynomial<10>(5) << endl;
+    vector<int> vec = {1,4,5,2,3};
+    polynomial <int, 1, 0, 3, 4> p1 = vec;
+    cout << p1 << endl;
 }
 
 using namespace std;
